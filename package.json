@@ -1,0 +1,25 @@
+{
+  "name": "trogtube",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "mobx": "^5.0.3",
+    "mobx-react": "^5.2.3",
+    "react": "^16.4.2",
+    "react-app-rewire-mobx": "^1.0.8",
+    "react-app-rewire-styled-components": "^3.0.2",
+    "react-app-rewired": "^1.5.2",
+    "react-dom": "^16.4.2",
+    "react-player": "^1.6.4",
+    "react-scripts": "1.1.4",
+    "socket.io-client": "^2.1.1",
+    "styled-components": "^3.3.3"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:8000"
+}
